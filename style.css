@@ -1,0 +1,42 @@
+body{
+    background-image: url(./asset/img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.fa-brands{
+    font-size: 25px;
+}
+
+.Tsize{
+    font-size: 3rem;
+}
+
+.TbSize{
+    font-size: 18px;
+}
+
+.justify-text{
+    text-align: justify;
+}
+
+.MaxWidth{
+    max-width: 25%;
+}
+
+p{
+    color: white;
+}
+
+
+/* Media viewport */
+
+@media only screen and (max-width : 768px)  {
+    .img-fluid{
+        width: 325px;
+    }
+}
+
