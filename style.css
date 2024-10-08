@@ -1,3 +1,8 @@
+/* 
+*{
+    border: 1px rgb(60, 255, 0) solid;
+} */
+
 body{
     background-image: url(./asset/img/background.png);
     background-size: cover;
@@ -31,12 +36,34 @@ p{
     color: white;
 }
 
+.myheader{
+    background-color: rgba(5, 30, 31, 0.5);
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+}
+
+/* .hoverNav{
+} */
+
+.nav-item{
+    background-color: rgb(5, 55, 91);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
 
 /* Media viewport */
 
 @media only screen and (max-width : 768px)  {
     .img-fluid{
         width: 325px;
+    }
+    .myheader{
+        background-color: rgb(5, 30, 31);
+        position: sticky;
+        top: 10px;
+        z-index: 1;
     }
 }
 
