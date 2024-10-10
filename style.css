@@ -38,19 +38,8 @@ p{
 
 .myheader{
     background-color: rgba(5, 30, 31, 0.5);
-    position: sticky;
-    top: 10px;
     z-index: 1;
-}
-
-/* .hoverNav{
-} */
-
-.nav-item{
-    background-color: rgb(5, 55, 91);
-    border-radius: 10px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    backdrop-filter: blur(5px);
 }
 
 /* Media viewport */
@@ -58,12 +47,6 @@ p{
 @media only screen and (max-width : 768px)  {
     .img-fluid{
         width: 325px;
-    }
-    .myheader{
-        background-color: rgb(5, 30, 31);
-        position: sticky;
-        top: 10px;
-        z-index: 1;
     }
 }
 
