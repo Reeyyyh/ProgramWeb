@@ -1,0 +1,57 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+.numbutton {
+    background-color: #f8f9fa; /* Warna default */
+    color: #000; /* Warna teks default */
+}
+
+.dark-mode .numbutton {
+    background-color: #3a3b3c;
+    color: #ffffff;
+}
+
+.case{
+    background-color: rgb(177, 177, 177);
+}
+
+.btn {
+    width: 75px;
+    height: 75px;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 400px;
+}
+
+.operator-btn {
+    background-color: #5167c9;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.fa-backspace{
+    font-size: 30px;
+}
