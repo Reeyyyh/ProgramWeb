@@ -17,10 +17,16 @@ body.light-mode {
     color: #000000;
 }
 
+.padBorder{
+    height: 50px;
+    border: #e6e3e3 solid 1px;
+    border-radius: 12px;
+    padding: 5px;
+}
 
 .numbutton {
-    background-color: #f8f9fa; /* Warna default */
-    color: #000; /* Warna teks default */
+    background-color: #f8f9fa;
+    color: #000;
 }
 
 .dark-mode .numbutton {
