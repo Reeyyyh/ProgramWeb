@@ -1,6 +1,6 @@
 <?php
 echo "Masukkan Angka: ";
-$angka = trim(fgets(STDIN));
+$angka = trim(fgets(STDIN)); 
 
 
 function Inputan($angka) {
@@ -16,11 +16,11 @@ function ShowData($angka) {
     for ($i = 1; $i <= $angka; $i++) {
         if ($i % 4 == 0 && $i % 6 == 0) {
             echo "Pemrograman Website 2024\n";
-        } elseif ($i % 5 == 0) {
+        } else if ($i % 5 == 0) {
             echo "2024\n";
-        } elseif ($i % 4 == 0) {
+        } else if ($i % 4 == 0) {
             echo "Pemrograman\n";
-        } elseif ($i % 6 == 0) {
+        } else if ($i % 6 == 0) {
             echo "Website\n";
         } else {
             echo $i . "\n";
