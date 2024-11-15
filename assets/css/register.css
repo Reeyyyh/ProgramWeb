@@ -1,0 +1,172 @@
+/* Styling untuk background halaman */
+body {
+    background: linear-gradient(to right, #4ECDC4, #556270); /* Warna teal dan abu-abu gelap */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    color: #333; /* Warna teks utama */
+}
+
+/* Styling untuk card register */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-color: #F7F9FA; /* Warna abu muda */
+}
+
+/* Styling untuk header pada card */
+.card-header {
+    background: #4ECDC4; /* Warna teal lembut */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Styling untuk label form */
+.form-label {
+    font-weight: 600;
+    color: #556270; /* Warna abu gelap */
+}
+
+/* Styling untuk tombol register */
+.btn-success {
+    background: #4ECDC4; /* Warna teal lembut */
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-success:hover {
+    background: #3BACAA; /* Warna teal lebih gelap untuk hover */
+}
+
+/* Styling untuk input form */
+.form-control {
+    border: 1px solid #CED4DA;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    border-color: #4ECDC4; /* Warna fokus teal */
+    box-shadow: 0 0 5px rgba(78, 205, 196, 0.5);
+}
+
+/* Styling untuk link pada teks bawah */
+.text-center p a {
+    font-weight: 600;
+    color: #4ECDC4; /* Warna teal lembut */
+    transition: 0.3s;
+}
+
+.text-center p a:hover {
+    color: #3BACAA; /* Warna teal lebih gelap */
+}
+
+/* Tambahan styling responsif */
+@media (max-width: 768px) {
+    .card {
+        padding: 10px;
+    }
+
+    .card-header {
+        font-size: 1.25rem;
+    }
+
+    .btn-success {
+        font-size: 0.9rem;
+    }
+}
+/* Styling untuk background halaman */
+body {
+    background: linear-gradient(to right, #4ECDC4, #556270); /* Warna teal dan abu-abu gelap */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    color: #333; /* Warna teks utama */
+}
+
+/* Styling untuk card register */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-color: #F7F9FA; /* Warna abu muda */
+}
+
+/* Styling untuk header pada card */
+.card-header {
+    background: #4ECDC4; /* Warna teal lembut */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Styling untuk label form */
+.form-label {
+    font-weight: 600;
+    color: #556270; /* Warna abu gelap */
+}
+
+/* Styling untuk tombol register */
+.btn-success {
+    background: #4ECDC4; /* Warna teal lembut */
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-success:hover {
+    background: #3BACAA; /* Warna teal lebih gelap untuk hover */
+}
+
+/* Styling untuk input form */
+.form-control {
+    border: 1px solid #CED4DA;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    border-color: #4ECDC4; /* Warna fokus teal */
+    box-shadow: 0 0 5px rgba(78, 205, 196, 0.5);
+}
+
+/* Styling untuk link pada teks bawah */
+.text-center p a {
+    font-weight: 600;
+    color: #4ECDC4; /* Warna teal lembut */
+    transition: 0.3s;
+}
+
+.text-center p a:hover {
+    color: #3BACAA; /* Warna teal lebih gelap */
+}
+
+/* Tambahan styling responsif */
+@media (max-width: 768px) {
+    .card {
+        padding: 10px;
+    }
+
+    .card-header {
+        font-size: 1.25rem;
+    }
+
+    .btn-success {
+        font-size: 0.9rem;
+    }
+}
