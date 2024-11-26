@@ -1,1 +1,0 @@
-// ALAMAK 😱 lupa tambahin JS
